@@ -1,0 +1,25 @@
+{
+  "item.tutorialmod.sapphire" : "Sapphire",
+  "item.tutorialmod.raw_sapphire" : "Raw sapphire",
+  "item.tutorialmod.bandaid" : "Band aid",
+  "item.tutorialmod.metal_detector" : "Metal detector",
+  "item.tutorialmod.strawberry" : "Strawberry",
+  "item.tutorialmod.pine_cone" : "Pine cone",
+
+  "block.tutorialmod.sapphire_block": "Block of sapphire",
+  "block.tutorialmod.raw_sapphire_block": "Block of raw sapphire",
+
+  "block.tutorialmod.sapphire_ore": "Sapphire ore",
+  "block.tutorialmod.nether_sapphire_ore": "Nether sapphire ore",
+  "block.tutorialmod.end_stone_sapphire_ore": "End sapphire ore",
+  "block.tutorialmod.deepslate_sapphire_ore": "Deepslate sapphire ore",
+
+  "block.tutorialmod.sound_block" : "Sound block",
+
+  "item.tutorialmod.healing_syringe": "Healing syringe",
+  "item.tutorialmod.strange_syringe": "Strange syringe",
+  "item.tutorialmod.syringe": "Syringe",
+
+  "creativetab.tutorial_tab" : "Tutorial Mod",
+  "tooltip.tutorialmod.metal_detector.tooltip": "You could probably find where grandma is buried"
+}
