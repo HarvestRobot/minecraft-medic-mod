@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "medic_combat_mod:syringe",
+    "medic_combat_mod:healing_syringe",
+    "medic_combat_mod:strange_syringe"
+  ]
+}

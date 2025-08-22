@@ -3,9 +3,9 @@ loaderVersion="[47,)" # Para 1.20.1, el 47 es el mínimo de Forge
 license="MIT"
 
 [[mods]]
-modId="tutorialmod"
+modId="medic_combat_mod"
 version="0.0.1"
-displayName="Tutorial mod"
+displayName="Medic!"
 description='''
-Un mod de prueba
+Yelling it to your friend might help
 '''
