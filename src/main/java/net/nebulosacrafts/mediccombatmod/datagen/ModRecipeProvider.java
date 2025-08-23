@@ -2,6 +2,7 @@ package net.nebulosacrafts.mediccombatmod.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.nebulosacrafts.mediccombatmod.item.ModItems;
 import net.nebulosacrafts.mediccombatmod.util.ModTags;
@@ -22,7 +23,7 @@ public class ModRecipeProvider extends RecipeProvider {
     protected void buildRecipes(@NotNull Consumer<FinishedRecipe> pWriter) {
 
         // Syringe
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SYRINGE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SYRINGE.get(), 2)
                 .pattern("  N")
                 .pattern(" G ")
                 .pattern("G  ")
@@ -42,6 +43,29 @@ public class ModRecipeProvider extends RecipeProvider {
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.STRANGE_SYRINGE.get(), 2)
                 .requires(ModItems.SYRINGE.get())
                 .requires(ModTags.Items.MUSHROOMS)
+                .unlockedBy(getHasName(ModItems.SYRINGE.get()), has(ModItems.SYRINGE.get()))
+                .save(pWriter);
+
+        // Propanolol syringe
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PROPANOLOL_SYRINGE.get())
+                .requires(ModItems.SYRINGE.get())
+                .requires(Items.SNOWBALL)
+                .requires(ItemTags.FLOWERS)
+                .unlockedBy(getHasName(ModItems.SYRINGE.get()), has(ModItems.SYRINGE.get()))
+                .save(pWriter);
+
+        // Amphetamine syringe
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.AMPHETAMINE_SYRINGE.get())
+                .requires(ModItems.SYRINGE.get())
+                .requires(Items.SUGAR)
+                .requires(Items.SUGAR)
+                .unlockedBy(getHasName(ModItems.SYRINGE.get()), has(ModItems.SYRINGE.get()))
+                .save(pWriter);
+
+        // DMT syringe
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DMT_SYRINGE.get(), 2)
+                .requires(ModItems.SYRINGE.get())
+                .requires(Items.SUSPICIOUS_STEW)
                 .unlockedBy(getHasName(ModItems.SYRINGE.get()), has(ModItems.SYRINGE.get()))
                 .save(pWriter);
     }

@@ -3,6 +3,9 @@
   "item.mediccombatmod.healing_syringe": "Jeringa de curación",
   "item.mediccombatmod.strange_syringe": "Jeringa rara",
   "item.mediccombatmod.syringe": "Jeringa",
+  "item.mediccombatmod.dmt_syringe": "Jeringa de dimetiltriptamina",
+  "item.mediccombatmod.amphetamine_syringe": "Jeringa de anfetamina",
+  "item.mediccombatmod.propanolol_syringe": "Jeringa de propanolol",
 
   "creativetab.medic_tab" : "Medic!"
 }

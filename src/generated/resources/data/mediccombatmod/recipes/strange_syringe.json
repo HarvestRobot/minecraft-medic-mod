@@ -6,10 +6,11 @@
       "item": "mediccombatmod:syringe"
     },
     {
-      "item": "minecraft:glistering_melon_slice"
+      "tag": "mediccombatmod:mushrooms"
     }
   ],
   "result": {
-    "item": "mediccombatmod:healing_syringe"
+    "count": 2,
+    "item": "mediccombatmod:strange_syringe"
   }
 }

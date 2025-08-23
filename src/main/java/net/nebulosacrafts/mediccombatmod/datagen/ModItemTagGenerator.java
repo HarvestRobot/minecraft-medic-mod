@@ -30,6 +30,9 @@ public class ModItemTagGenerator extends ItemTagsProvider {
         this.tag(ModTags.Items.SYRINGES)
                 .add(ModItems.SYRINGE.get())
                 .add(ModItems.HEALING_SYRINGE.get())
-                .add(ModItems.STRANGE_SYRINGE.get());
+                .add(ModItems.STRANGE_SYRINGE.get())
+                .add(ModItems.DMT_SYRINGE.get())
+                .add(ModItems.AMPHETAMINE_SYRINGE.get())
+                .add(ModItems.PROPANOLOL_SYRINGE.get());
     }
 }

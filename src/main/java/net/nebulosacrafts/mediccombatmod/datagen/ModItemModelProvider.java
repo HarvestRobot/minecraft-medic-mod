@@ -20,6 +20,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SYRINGE);
         simpleItem(ModItems.HEALING_SYRINGE);
         simpleItem(ModItems.STRANGE_SYRINGE);
+        simpleItem(ModItems.DMT_SYRINGE);
+        simpleItem(ModItems.AMPHETAMINE_SYRINGE);
+        simpleItem(ModItems.PROPANOLOL_SYRINGE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item){

@@ -1,6 +1,9 @@
 {
   "item.mediccombatmod.healing_syringe": "Healing syringe",
   "item.mediccombatmod.strange_syringe": "Strange syringe",
+  "item.mediccombatmod.dmt_syringe": "Dimethyltryptamine syringe",
+  "item.mediccombatmod.amphetamine_syringe": "Amphetamine syringe",
+  "item.mediccombatmod.propanolol_syringe": "Propanolol syringe",
   "item.mediccombatmod.syringe": "Syringe",
 
   "creativetab.medic_tab" : "Medic!"

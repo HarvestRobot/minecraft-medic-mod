@@ -6,18 +6,18 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 
 /**
- * Drug that helps you to aim better with bows and crossbows
+ * Drug that makes you wanna move those bones
  */
-public class PropanololSyringeItem extends UsableSyringe {
+public class AmphetamineSyringeItem extends UsableSyringe {
 
-    public PropanololSyringeItem(Properties pProperties) {
+    public AmphetamineSyringeItem(Properties pProperties) {
         super(pProperties);
     }
 
     @Override
     public void personalAction(Player player, ItemStack stack){
         if(player.isHurt()){
-            player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 200, 1)); // damage boost
+            player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 2)); // movement speed boost
 
             if (!player.getAbilities().instabuild) {
                 stack.shrink(1); // consumir jeringa
