@@ -3,13 +3,13 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "medic_combat_mod:syringe"
+      "item": "mediccombatmod:syringe"
     },
     {
-      "tag": "medic_combat_mod:mushrooms"
+      "tag": "mediccombatmod:mushrooms"
     }
   ],
   "result": {
-    "item": "medic_combat_mod:strange_syringe"
+    "item": "mediccombatmod:strange_syringe"
   }
 }
