@@ -1,7 +1,7 @@
 {
-  "item.medic_combat_mod.healing_syringe": "Healing syringe",
-  "item.medic_combat_mod.strange_syringe": "Strange syringe",
-  "item.medic_combat_mod.syringe": "Syringe",
+  "item.mediccombatmod.healing_syringe": "Healing syringe",
+  "item.mediccombatmod.strange_syringe": "Strange syringe",
+  "item.mediccombatmod.syringe": "Syringe",
 
   "creativetab.medic_tab" : "Medic!"
 }

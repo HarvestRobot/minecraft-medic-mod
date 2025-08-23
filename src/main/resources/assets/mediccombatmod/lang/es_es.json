@@ -1,8 +1,8 @@
 {
 
-  "item.medic_combat_mod.healing_syringe": "Jeringa de curación",
-  "item.medic_combat_mod.strange_syringe": "Jeringa rara",
-  "item.medic_combat_mod.syringe": "Jeringa",
+  "item.mediccombatmod.healing_syringe": "Jeringa de curación",
+  "item.mediccombatmod.strange_syringe": "Jeringa rara",
+  "item.mediccombatmod.syringe": "Jeringa",
 
   "creativetab.medic_tab" : "Medic!"
 }

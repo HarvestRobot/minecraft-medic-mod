@@ -21,6 +21,9 @@ public class ModTags {
         private static TagKey<Item> tag(String name){
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(MedicCombatMod.MOD_ID, name));
         }
+        public static final TagKey<Item> MUSHROOMS =
+                ItemTags.create(ResourceLocation.fromNamespaceAndPath(MedicCombatMod.MOD_ID, "mushrooms"));
+        public static final TagKey<Item> SYRINGES =
+                ItemTags.create(ResourceLocation.fromNamespaceAndPath(MedicCombatMod.MOD_ID, "syringes"));
     }
-
 }
